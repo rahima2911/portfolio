@@ -6,7 +6,11 @@ const Skills = () => {
     },
     {
       name: "Backend",
-      skills: ["NodeJS", "ExpressJS", "MongoDB", "C++"],
+      skills: ["NodeJS", "ExpressJS", "MongoDB", "Python", "SQL"],
+    },
+    {
+      name: "Programming",
+      skills: ["C++", "Database Design", "REST APIs"],
     },
   ]
 
@@ -18,14 +22,14 @@ const Skills = () => {
           <span className="block w-20 h-1 bg-emerald-600 dark:bg-emerald-500 mx-auto mt-4"></span>
         </h2>
 
-        <div className="grid md:grid-cols-2 gap-12">
+        <div className="grid md:grid-cols-3 gap-8">
           {skillCategories.map((category, index) => (
             <div
               key={index}
               className="bg-gray-50 dark:bg-gray-800 p-6 rounded-lg shadow-md transition-all duration-300 hover:-translate-y-1"
             >
               <h3 className="text-xl font-semibold mb-6 text-emerald-600 dark:text-emerald-400 pb-2 border-b border-gray-200 dark:border-gray-700">
-                {category.name} Technologies
+                {category.name}
               </h3>
 
               <ul className="space-y-3">
@@ -80,7 +84,8 @@ const Skills = () => {
               "UI/UX Design",
               "Responsive Design",
               "Git & GitHub",
-              "RESTful APIs",
+              "WebSocket",
+              "LocalStorage",
             ].map((skill) => (
               <span
                 key={skill}

@@ -109,7 +109,7 @@ const Contact = () => {
                     href="mailto:rahima@example.com"
                     className="text-emerald-600 dark:text-emerald-400 hover:underline"
                   >
-                    rahima@example.com
+                    rahimasarwar29@example.com
                   </a>
                 </div>
               </div>
@@ -160,7 +160,7 @@ const Contact = () => {
                   <h4 className="text-lg font-medium text-gray-800 dark:text-gray-200">Social Profiles</h4>
                   <div className="flex space-x-3 mt-2">
                     <a
-                      href="#"
+                      href="https://github.com/rahima2911"
                       className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
                     >
                       <svg
@@ -180,7 +180,7 @@ const Contact = () => {
                       </svg>
                     </a>
                     <a
-                      href="#"
+                      href="https://www.upwork.com/freelancers/~0182b8a29a7e8886a0?mp_source=share"
                       className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
                     >
                       {/* Upwork Icon */}
@@ -201,25 +201,29 @@ const Contact = () => {
                         <path d="M22 8.5h-4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2v-6a2 2 0 0 0-2-2z" />
                       </svg>
                     </a>
-                    <a
-                      href="#"
-                      className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
-                    >
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="20"
-                        height="20"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="currentColor"
-                        strokeWidth="2"
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        className="lucide lucide-twitter"
-                      >
-                        <path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z" />
-                      </svg>
-                    </a>
+                 <a
+  href="https://www.linkedin.com/in/rahima-sarwar-019577319/"  // Replace with your LinkedIn URL
+  target="_blank"
+  rel="noopener noreferrer"
+  className="text-gray-600 dark:text-gray-400 hover:text-emerald-600 dark:hover:text-emerald-400 transition-colors"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    width="20"
+    height="20"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    className="lucide lucide-linkedin"
+  >
+    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
+    <rect x="2" y="9" width="4" height="12" />
+    <circle cx="4" cy="4" r="2" />
+  </svg>
+</a>
                   </div>
                 </div>
               </div>
