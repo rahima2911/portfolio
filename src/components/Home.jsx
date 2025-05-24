@@ -55,8 +55,8 @@ const Home = () => {
         <div className="flex flex-col sm:flex-row justify-center gap-4 mb-12">
           {/* Download Resume Button */}
           <a
-            href="/resume.pdf"
-            download="Rahima_Resume.pdf"
+            href="/Rahima_CV.pdf"
+            download="Rahima_CV.pdf"
             className="inline-block px-6 py-2.5 text-base font-medium bg-emerald-500 hover:bg-emerald-600 text-white rounded-lg shadow-[0_0_10px_rgba(16,185,129,0.4)] hover:shadow-[0_0_15px_rgba(16,185,129,0.6)] transition-all duration-300 border border-emerald-400 dark:border-emerald-300 transform hover:-translate-y-1"
           >
             <div className="flex items-center justify-center gap-2">
@@ -76,7 +76,7 @@ const Home = () => {
                 <polyline points="7 10 12 15 17 10" />
                 <line x1="12" x2="12" y1="15" y2="3" />
               </svg>
-              Download Resume
+              Download CV
             </div>
           </a>
 
