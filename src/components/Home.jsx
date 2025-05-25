@@ -22,8 +22,8 @@ const Home = () => {
   const handleDownloadResume = () => {
     // Create a link element
     const link = document.createElement("a")
-    link.href = "/resume.pdf" // Path to your resume PDF
-    link.download = "Rahima_Resume.pdf"
+    link.href = "/Rahima_CV.pdf" // Path to your resume PDF
+    link.download = "Rahima_CV.pdf"
     document.body.appendChild(link)
     link.click()
     document.body.removeChild(link)
